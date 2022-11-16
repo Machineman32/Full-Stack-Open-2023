@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61bc02b0-5ebd-48d4-bd3c-a4a98585aa47" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/.idea/courseinfo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/src/components/Content.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/src/components/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/src/components/Part.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/src/components/Total.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/src/index.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Hcffzeav8X86P0Cqj2pXJEzBv8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Projects/Full Stack Course/Part 1/anecdotes",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61bc02b0-5ebd-48d4-bd3c-a4a98585aa47" name="Changes" comment="" />
+      <created>1668589400055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668589400055</updated>
+      <workItem from="1668589403795" duration="75000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
