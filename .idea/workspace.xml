@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61bc02b0-5ebd-48d4-bd3c-a4a98585aa47" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/.idea/courseinfo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/src/components/Content.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/src/components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/src/components/Part.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/src/components/Total.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part 1/courseinfo (1.1-1.2)/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/anecdotes/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Part 1/anecdotes/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +25,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Projects/Full Stack Course/Part 1/anecdotes",
+    "last_opened_file_path": "D:/Projects/Full Stack Course/Part 2/phonebook",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -58,6 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668589400055</updated>
       <workItem from="1668589403795" duration="75000" />
+      <workItem from="1670173732133" duration="18000" />
     </task>
     <servers />
   </component>
