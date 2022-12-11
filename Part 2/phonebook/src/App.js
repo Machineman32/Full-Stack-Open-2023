@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import Search from './components/Search'
+import Add from './components/Add'
+import ContactList from "./components/ContactList";
 
 const App = () => {
 
@@ -11,6 +14,7 @@ const App = () => {
 
     const [newName, setNewName] = useState('')
     const [newNumber, setNewNumber] = useState('')
+    const [search, setSearch] = useState('')
 
     const numberHandler = (e) => {
         e.preventDefault()
@@ -20,18 +24,18 @@ const App = () => {
     const nameHandler = (e) => {
         e.preventDefault()
         setNewName(e.target.value)
-        console.log(newName)
     }
 
-
+    const searchHandler = (e) => {
+        e.preventDefault()
+        setSearch(e.target.value)
+    }
 
     const addContact = (e) => {
         e.preventDefault()
 
-
         for(let i in persons){
             const addedName = persons[i].name
-
 
             if(addedName === newName) {
                 alert(`${addedName} is already added to phonebook`)
@@ -45,43 +49,27 @@ const App = () => {
             id: Date.now()
         }
 
-        for (let i in personObject) {
-            console.log(personObject[i])
-        }
-
         setPersons(persons.concat(personObject))
     }
 
     return (
         <div>
             <h2>Phonebook</h2>
-            Search contact <input/>
-            <h2>Add number</h2>
-            <form onSubmit={addContact}>
-                <div>
-                    name:
-                    <input
-                        value={newName}
-                        onChange={nameHandler}
-                    />
-                </div>
-                <div>
-                    number:
-                    <input
-                        value={newNumber}
-                        onChange={numberHandler}
-                    />
-                </div>
-                <div>
-                    <button type="submit">add</button>
-                </div>
-            </form>
-            <h2>Numbers</h2>
-            <ul>
-                    {persons.map(person => {
-                        return <p>{person.name} {person.number}</p>
-                    })}
-            </ul>
+            <Search
+                search={search}
+                searchHandler={searchHandler}
+            />
+            <Add
+                addContact={addContact}
+                newName={newName}
+                nameHandler={nameHandler}
+                newNumber={newNumber}
+                numberHandler={numberHandler}
+            />
+            <ContactList
+                persons={persons}
+                search={search}
+            />
         </div>
     )
 }
