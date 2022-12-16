@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Add = ({addContact, newName, nameHandler, newNumber, numberHandler}) => {
+
     return (
         <div>
             <h2>Add number</h2>

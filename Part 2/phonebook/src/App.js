@@ -1,20 +1,24 @@
-import { useState } from 'react'
+import {useEffect, useState} from 'react'
 import Search from './components/Search'
 import Add from './components/Add'
 import ContactList from "./components/ContactList";
+import personService from './services/persons'
 
 const App = () => {
 
-    const [persons, setPersons] = useState([
-        { name: 'Arto Hellas', number: '040-123456', id: 1 },
-        { name: 'Ada Lovelace', number: '39-44-5323523', id: 2 },
-        { name: 'Dan Abramov', number: '12-43-234345', id: 3 },
-        { name: 'Mary Poppendieck', number: '39-23-6423122', id: 4 }
-    ])
-
+    const [persons, setPersons] = useState([])
     const [newName, setNewName] = useState('')
     const [newNumber, setNewNumber] = useState('')
     const [search, setSearch] = useState('')
+
+    useEffect(() => {
+        personService
+            .getAll()
+            .then(response => {
+                setPersons(response.data)
+            })
+    }, [])
+
 
     const numberHandler = (e) => {
         e.preventDefault()
@@ -34,22 +38,32 @@ const App = () => {
     const addContact = (e) => {
         e.preventDefault()
 
-        for(let i in persons){
-            const addedName = persons[i].name
-
-            if(addedName === newName) {
-                alert(`${addedName} is already added to phonebook`)
-                return persons[i] = ''
-            }
-        }
 
         const personObject = {
             name: newName,
             number: newNumber,
-            id: Date.now()
+            id: `${persons.length + 1}`
         }
 
-        setPersons(persons.concat(personObject))
+        console.log(personObject)
+
+        for(let i in persons){
+            const addedName = persons[i].name
+
+            if(addedName === newName) {
+                if(window.confirm(`${addedName} is already added to phonebook. Replace the old number with a new one?`)) {
+                    personService.updateContact(persons[i].id, personObject)
+                }
+                return persons[i] = ''
+            }
+        }
+
+        personService
+            .create(personObject)
+            .then(response => {
+                setPersons(persons.concat(personObject))
+                setNewName('')
+            })
     }
 
     return (
